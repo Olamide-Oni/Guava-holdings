@@ -1,0 +1,164 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    color: whitesmoke;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    top: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    justify-content: space-between;
+    padding: 0 3rem;
+    z-index: 1000; /* Ensure the header is above the video */
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 2rem;
+    display: flex;
+    gap: 0.25rem;
+    align-content: center;
+}
+
+.guava-logo {
+    height: 4rem;
+}
+
+#logo p {
+    font-size: 1.2rem;
+}
+
+#menu-nav-burger {
+    display: none;
+}
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Hide anything overflowing the hero section */
+}
+
+video {
+    position: absolute; /* Position the video within the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the area without stretching */
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 20px; 
+    left: 20px; 
+    color: white;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 300;
+    z-index: 10; 
+    line-height: 1.2em;
+}
+
+.hero-text span {
+    color: #FFD700; /* Color for 'Real Estate and Technology' */
+    font-size: 2rem; /* Slightly larger font for emphasis */
+    display: block;
+}
+
+.about-us-section {
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.about-us-catalog {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 80%;
+    height: 19rem;
+    margin: 1rem auto;
+    column-gap: 0.5rem;
+}
+
+.about-us-catalog div {
+    position: relative;
+    border-radius: 10%;
+}
+
+.about-us-catalog div h3 {
+    position: absolute;
+    bottom: 1rem;
+    left: 5px;
+    color: antiquewhite;
+}
+
+.about-us-catalog .catalog-real-estate  {
+    background-image: url(./assets/Guava1.jpg);
+    background-size: cover;
+}
+
+.about-us-catalog .catalog-investment  {
+    background-image: url(./assets/GuavaInvestmentcatalog.jpg);
+    background-size: cover;
+}
+
+.about-us-catalog .catalog-technology  {
+    background-image: url(./assets/GuavaTechnologycatalog.jpg);
+    background-size: cover;
+}
+
+.our-investment {
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.our-investment-subsection {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.ceo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ceo-words {
+    color: black;
+    padding: 4rem 2rem 1rem 2rem;
+}
+
+.ceo-words span {
+    display: block;
+    text-align: left;
+    padding: 1rem 0 1rem 2rem;
+}
+
+.ceo-image {
+    width: 100%;
+    height: 19rem;
+    background-image: url(./assets/GuavaCEO.jpg);
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .hero-text {
+        font-size: 1.2rem;
+    }
+    .hero-text span {
+        font-size: 1.5rem;
+    }
+}
