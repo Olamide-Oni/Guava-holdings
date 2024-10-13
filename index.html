@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Guava</title>
+    <script src="https://kit.fontawesome.com/bcdea12dfe.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <div id="logo">
            <img src="./assets/Guava logo.jpg" alt="guava-logo" class="guava-logo">
-            <p class="logo-text">Guava Holdings</p>
         </div>
-        <nav id="navlinks">
+        <a href="./index.html"><p class="logo-text">Guava Holdings</p></a>
+        <nav class="navlinks">
           <ul>
-            <li>Home</li>
-            <li>Services</li>
-            <li>Blog</li>
-            <li>Contact Us</li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="">Our Services</a></li>
+            <li><a href="">Our Brands</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Contact</a></li>
           </ul>
         </nav>
         <div id="menu-nav-burger">
@@ -35,7 +41,7 @@
     </div>
     <section class="about-us-section">
         <p class="heading">ABOUT US</p>
-        <p>Guava Holdings is an african investment company committed to improving lives and transforming Africa.</p>
+        <p class="about-us-heading-text">Guava Holdings is an african investment company committed to improving lives and transforming Africa.</p>
         <div class="about-us-catalog">
             <div class="catalog-real-estate">
                 <h3>Real Estate</h3>
@@ -51,25 +57,88 @@
     </section>
     <section class="our-investment">
         <p class="heading"> OUR INVESTMENT</p>
-        <P>We invest in sectors that provide strong long-term returns and have the ability to transform Africa's economy.</P>
+        <p class="our-investment-heading">We invest in sectors that provide strong long-term returns and have the ability to transform Africa's economy.</p>
         <div class="our-investment-subsection">
-            <div class="ceo">
+            <div class="ceo fade-in">
                 <div class="ceo-words">
                     <p>
                         "There is a better way to invest in Africa for a sustainable future that creates value for all"
                     </p>
-                    <span> - Chuks Eke</span>
-                    <span>CEO, GUAVA HOLDINGS</span>
+                    <span class="ceo-name"> - Chuks Eke</span>
+                    <span class="ceo-company">CEO, GUAVA HOLDINGS</span>
                 </div>
                 <div class="ceo-image"></div>
             </div>
-            <div class="philantrophy">
-                <h3>Philantrophy</h3>
+            <div class="philanthropy fade-in">
+                <h3>Company's Policy</h3>
                 <p>
-                    Promoting entreprenuership as a catlyst for economic growth. As a group we believe in doing well and doing good; this is the philosophy that drives and guides our investment activities.
+                    Promoting entrepreneurship as a catalyst for economic growth. As a group we believe in doing well and doing good; this is the philosophy that drives and guides our investment activities.
                 </p>
             </div>
         </div>
     </section>
+    
+    <section class="news-contact">
+        <h3>Latest News</h3>
+        <div class="news-contact-section">
+            <div class="news-section">
+                <div class="news fade-in">
+                    <div class="news-img news-img1"></div>
+                    <div class="news-container">
+                        <h4 class="news-heading">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, deleniti adipisci mollitia commodi hic amet!</h4>
+                        <p class="news-date">October 1, 2024</p>
+                        <a href="" class="read-more">Read more >></a>
+                    </div>
+                </div>
+                <div class="news fade-in">
+                    <div class="news-img news-img2"></div>
+                    <div class="news-container">
+                        <h4 class="news-heading">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione molestias, quod voluptatem est sit deleniti.</h4>
+                        <p class="news-date">October 2, 2024</p>
+                        <a href="" class="read-more">Read more >></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-section">
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pfHwezMr-jY?si=FwLQnc5Aq61c_Q2J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="contact-us">
+                    <h3>Contact Us</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, hic blanditiis magnam asperiores ullam id.</p>
+                    <form action="" class="contact-form">
+                        <input type="text" placeholder="full name">
+                        <input type="text" placeholder="Your email">
+                        <input type="text" placeholder="description">
+                        <button type="submit">submit</button>
+                    </form>
+                    <div class="contact-icons">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    
+    <footer>
+        <div class="footer-links">
+            <a href="./about.html">ABOUT US</a>
+            <a href="">INVESTMENT</a>
+            <a href="">PHILANTHROPY</a>
+            <a href="">MEDIA</a>
+            <a href="">CAREERS</a>
+            <a href="">CONTACT</a>
+        </div>
+        <div class="copyright-terms">
+            <a href=""><i class="fa-regular fa-copyright">2024 Guava Holdings</i></a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms & Conditions</a>
+        </div>
+    </footer>
+    <script type="module" src="./script.js"></script>
 </body>
 </html>
