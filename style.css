@@ -603,12 +603,12 @@ video {
 }
 
 .news-img1 {
-    background-image: url(/assets/Guava3.jpg);
+    background-image: url(./assets/Guava3.jpg);
     background-size: cover;
 }
 
 .news-img2 {
-    background-image: url(/assets/Guava4.jpg);
+    background-image: url(./assets/Guava4.jpg);
     background-size: cover;
 }
 
