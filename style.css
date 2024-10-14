@@ -1,23 +1,3 @@
-:root {
-    -e-global-color-primary: #FE0000;
-    --e-global-color-secondary: #53565A;
-    --e-global-color-text: #53565A;
-    --e-global-color-accent: #FE0000;
-    --e-global-color-4e6a0cdf: #EE3123;
-    --e-global-color-14587c87: #646569;
-    --e-global-color-24325f1: #F0F0F0;
-    --e-global-color-7d90eab7: #FFF;
-    --e-global-typography-primary-font-family: "Mulish";
-    --e-global-typography-primary-font-weight: bold;
-    --e-global-typography-secondary-font-family: "Mulish";
-    --e-global-typography-secondary-font-weight: 400;
-    --e-global-typography-text-font-family: "Mulish";
-    --e-global-typography-text-font-weight: 400;
-    --e-global-typography-accent-font-family: "Mulish";
-    --e-global-typography-accent-font-weight: normal;
-    font-family: "Mulish", Sans-serif;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -128,7 +108,7 @@ header .logo-text {
 .hero-section {
     position: relative;
     width: 100%;
-    height: 100vh; /* Full viewport height */
+    height: 90vh; /* Full viewport height */
     overflow: hidden; /* Hide anything overflowing the hero section */
     margin-bottom: 1.5rem;
 }
@@ -144,8 +124,8 @@ video {
 
 .hero-text {
     position: absolute;
-    bottom: 20px; 
-    left: 3rem; 
+    bottom: 4rem; 
+    left: 2rem; 
     color: #ffffff;
     text-align: left;
     font-size: 50px;
@@ -176,15 +156,6 @@ section {
     width: 100%;
 }
 
-/*.about-us-catalog {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-width: 70%;
-    height: 19rem;
-    margin: 1rem auto;
-    column-gap: 0.5rem;
-} */
-
 .heading {
     color: #646569;
     font-size: 11px;
@@ -201,22 +172,6 @@ section {
     letter-spacing: 1.5px;
 }
 
-/*.about-us-catalog div {
-    position: relative;
-    border-radius: 10%;
-}
-
-.about-us-catalog div h3 {
-    position: absolute;
-    bottom: 1rem;
-    left: 5px;
-    font-family: "Century Gothic", Sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 1.2em;
-    color: #ffffff;
-} */
 
 .about-us-catalog .catalog-real-estate  {
     background-image: url(./assets/Guava1.jpg);
@@ -229,7 +184,7 @@ section {
 }
 
 .about-us-catalog .catalog-technology  {
-    background-image: url(./assets/GuavaTechnologycatalog.jpg);
+    background-image: url(./assets/GuavaTech.webp);
     background-size: cover;
 } 
 
@@ -319,102 +274,6 @@ section {
 .about-us-catalog div:hover {
     filter: grayscale(0%);
 }
-
-
-
-
-
-
-
-/*.our-investment {
-    color: black;
-    text-align: center;
-    width: 100%;
-}
-
-.our-investment-heading {
-        color: #646569;
-        font-weight: normal;
-        line-height: 1.5em;
-        letter-spacing: 1.5px;
-        text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
-}
-
-.our-investment-subsection {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    width: 100%;
-    margin-top: 2rem;
-}
-
-.ceo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.ceo-words {
-    padding: 4rem 2rem 1rem 2rem;
-    font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1.5em;
-    letter-spacing: 0.2px;
-}
-
-.ceo-words p {
-        font-size: 14px;
-        font-weight: 400;
-        font-style: normal;
-        line-height: 1.5em;
-        letter-spacing: 0.2px;
-        color: #3F444B;
-}
-
-.ceo-name {
-    font-size: 14px;
-    color: #3F444B;
-}
-
-.ceo-company {
-    font-size: 11px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color:#EE3123;
-}
-.ceo-words span {
-    display: block;
-    text-align: left;
-    padding: 1rem 0 1rem 2rem;
-}
-
-.ceo-image {
-    width: 100%;
-    height: 19rem;
-    background-image: url(./assets/GuavaCEO.jpg);
-    background-size: cover;
-}
-
-.philanthropy h3 {
-    font-size: 24px;
-    font-weight: normal;
-    line-height: 1.5em;
-    letter-spacing: 0.2px;
-    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
-    color: #3f444b;
-    border-color: #3f444b;
-    fill: #3f444b;
-}
-
-.philanthropy p {
-    font-size: 14px;
-    line-height: 1.8em;
-    letter-spacing: 0.2px;
-    font-family: 'Mulish', sans-serif;
-    font-weight: var(--e-global-typography-text-font-weight);
-} */
-
-
 
 
 /* General styles */
@@ -530,101 +389,6 @@ section {
 
 
 
-
-/*.news-contact {
-    padding: 0 2rem 0 3rem;
-}
-
-.news-contact h3 {
-    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
-    font-style: normal;
-    color: #646569;
-}
-
-.news-contact-section {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    column-gap: 1rem;
-}
-
-.news {
-    display: grid;
-    grid-template-columns: 1fr 6fr;
-    column-gap: 1rem;
-}
-
-.news-img {
-    width: 100px;
-    height: 100px;
-}
-
-.news-img1 {
-    background-image: url(/assets/Guava3.jpg);
-    background-size: cover;
-}
-
-.news-img2 {
-    background-image: url(/assets/Guava4.jpg);
-    background-size: cover;
-}
-
-.news-heading {
-    color: #646569;
-    font-family: "Mulish", Sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 1.5em;
-    letter-spacing: 0.2px;
-}
-
-.news-date {
-    color: #646569;
-    font-family: "Mulish", Sans-serif;
-    font-size: 11px;
-    font-weight: bold;
-    line-height: 1.5em;
-    letter-spacing: 0.2px;
-}
-
-.read-more {
-    color: #FE0000;
-    font-family: "Mulish", Sans-serif;
-    font-size: 10px;
-    font-weight: bold;
-    line-height: 1.5em;
-    letter-spacing: 0.2px;
-}
-
-.contact-us {
-    width: 80%;
-    margin: 10px auto;
-}
-
-.contact-us h3 {
-    color: #646569;
-    font-family: "Mulish", Sans-serif;
-    font-weight: 500;
-    font-size: 19px;
-    line-height: 1;
-}
-
-.contact-us p {
-    font-size: 13px;
-    color: #646569;
-}
-
-.contact-form input {
-    display: block;
-    margin-bottom: 0.8rem;
-}
-
-.contact-icons {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem;
-} */
-
 /* General styles */
 .news-contact {
     padding: 0 1rem 0 1rem;
@@ -709,20 +473,71 @@ section {
 }
 
 .contact-us p {
-    font-size: 13px;
     color: #646569;
+    font-weight: normal;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5em;
+    letter-spacing: 0.2px;
+    margin-bottom: 1rem;
 }
+
+/* Style the form container */
+.contact-form {
+    max-width: 600px; /* Adjust the max width based on your design */
+    margin: 0 auto;   /* Center the form horizontally */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between inputs and the button */
+}
+
+/* Make inputs take full width */
+.contact-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style the submit button */
+.contact-form button.submit {
+    width: fit-content;
+    padding: 10px 20px;
+    margin: 0 auto; /* Center the button horizontally */
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.contact-form button.submit:hover {
+    background-color: #0056b3;
+}
+
 
 .contact-form input {
     display: block;
     margin-bottom: 0.8rem;
+    width: 100%;
+}
+
+.submit {
+    margin: 0 auto;
 }
 
 .contact-icons {
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
     padding: 0.5rem;
+}
+
+.contact-icons a:hover {
+    color: #EE3123;
 }
 
 /* Animation Styles for Fade-in and Slide-up */
@@ -957,7 +772,4 @@ footer {
         row-gap: 0.5rem;
     }
     
-   
-    
-
 }
