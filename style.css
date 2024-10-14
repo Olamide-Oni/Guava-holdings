@@ -52,8 +52,8 @@ header {
     justify-content: center;
     align-items: center;
     padding: 0 3rem;
-    color: #216b35;
-    background-color: antiquewhite;
+    color: #FFF;
+    background-color: rgb(78, 66, 50);
     opacity: 0.8;
     z-index: 1000; /* Ensure the header is above other content */
 }
@@ -90,7 +90,7 @@ header .logo-text {
 }
 
 .navlinks ul li a {
-    color: #216b35;
+    color:  #FFF;
     text-decoration: none;
     font-weight: bold;
 }
@@ -640,7 +640,7 @@ section {
 
 .news-contact-section {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
     column-gap: 1rem;
 }
 
@@ -750,7 +750,7 @@ section {
 
 footer {
     background-color: #033605;
-    max-height: 8rem;
+    min-height: 8rem;
     color: antiquewhite;
     padding: 2rem 8rem 2rem;
     position: relative;
@@ -928,6 +928,33 @@ footer {
 
     .contact-section {
         max-width: 100% !important;
+    }
+
+    .video {
+        max-width: 80vw !important;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 4px;
+        row-gap: 0.5rem;
+        
+    }
+
+    .copyright-terms {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 1rem;
+        row-gap: 0.5rem;
     }
     
    
