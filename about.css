@@ -167,6 +167,10 @@ video {
     unicode-bidi: isolate;
 }
 
+.about-us-section span h3 {
+    margin-bottom: 1rem;
+}
+
 .about-us-heading {
     color: #ee3123;
     font-weight: normal;
