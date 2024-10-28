@@ -50,14 +50,13 @@
                     </p>
                     <br>
                     <p>Securing a spot for your next home in this estate is more than just buying a plot of land; it’s an opportunity to invest in the future of Lagos. With the rapid development of Lekki Free Trade zone area fueled by landmarks like the Central Business District, Lekki Deep Sea Port, and Dangote Refinery, this estate offers the perfect blend of investment potential and serene living. And with flexible payment options, buyers can start their journey with an initial deposit of just N4,000,000, followed by a 6 to 12-month payment plan.</p>
-                    <br>
+
                 </div>
             </div>
         </section>
         <section class="recent-section">
 
         </section>
-
     </section>
 
     <footer class="footer">
@@ -75,7 +74,17 @@
             <a href="" class="copyright-term">Terms & Conditions</a>
         </div>
     </footer>
-
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const burgerMenu = document.getElementById('menu-nav-burger');
+            const navLinks = document.querySelector('.burger-links');
     
+            // Toggle the menu when the burger is clicked
+            burgerMenu.addEventListener('click', function() {
+                this.classList.toggle('open'); // Toggle the burger icon
+                navLinks.classList.toggle('open'); // Toggle the nav links dropdown
+            });
+        });
+      </script>
 </body>
 </html>

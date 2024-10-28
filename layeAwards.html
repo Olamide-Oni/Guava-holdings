@@ -77,6 +77,18 @@
             <a href="" class="copyright-term">Terms & Conditions</a>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const burgerMenu = document.getElementById('menu-nav-burger');
+            const navLinks = document.querySelector('.burger-links');
+    
+            // Toggle the menu when the burger is clicked
+            burgerMenu.addEventListener('click', function() {
+                this.classList.toggle('open'); // Toggle the burger icon
+                navLinks.classList.toggle('open'); // Toggle the nav links dropdown
+            });
+        });
+      </script>
 
     
 </body>

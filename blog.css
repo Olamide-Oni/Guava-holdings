@@ -150,7 +150,9 @@ footer {
     flex-direction: column;
     align-content: center;
     row-gap: 4rem;
+    margin-top: 2rem;
 }
+
 
 .footer-links {
     display: flex;
@@ -267,6 +269,7 @@ footer {
     .blog-recent {
         display: flex;
         flex-direction: column;
+        margin-bottom: 8rem;
     }
 
     .blogpost {
@@ -284,6 +287,7 @@ footer {
         display: flex;
         flex-direction: column;
         padding: 1rem;
+        margin-top: 4rem;
     }
 
     .footer-links {
