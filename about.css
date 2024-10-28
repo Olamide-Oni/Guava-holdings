@@ -10,7 +10,6 @@ body{
     height: 100%;
     overflow-x: hidden;
     font-family:"Raleway", Sans-serif;
-    /* color: rgb(124, 63, 63); */
     color: #3f444b;
     fill: #3f444b;
     background-color: #eeeeef;
@@ -50,6 +49,7 @@ header .logo-text {
     font-weight: bold;
     letter-spacing: 2px;
     text-align: center;
+    margin-left: 1rem;
 }
 
 .navlinks {
@@ -317,7 +317,7 @@ footer {
         flex-direction: column;
         list-style: none;
         z-index: 1000;
-        color: #216b35;
+        color: #19463d;
         justify-content: space-around;
         padding: 1rem;
 
@@ -331,7 +331,7 @@ footer {
     #menu-nav-burger.open ul li a {
         font-size: 16px;
         font-weight: bold;
-        color: #216b35;
+        color: #19463d;
         text-decoration: none;
     }
 

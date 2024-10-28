@@ -51,6 +51,7 @@ header .logo-text {
     font-weight: bold;
     letter-spacing: 2px;
     text-align: center;
+    margin-left: 1rem;
 }
 
 .navlinks {
@@ -303,6 +304,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 1rem 1rem 1rem;
+    column-gap: 5rem;
     border-radius: 4%;
 }
 
@@ -336,10 +338,10 @@ section {
 }
 
 .ceo-image {
-    width: 100%;
-    height: 19rem;
-    background-image: url(./assets/GuavaCEO.jpeg);
-    background-size: cover;
+    object-position: center;
+    border: 2px solid #ccc; /* Example border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
 
 .ceo-words span {
@@ -683,7 +685,7 @@ footer {
         flex-direction: column;
         list-style: none;
         z-index: 1000;
-        color: #216b35;
+        color: #19463d;
         justify-content: space-around;
         padding: 1rem;
 
@@ -697,7 +699,7 @@ footer {
     #menu-nav-burger.open ul li a {
         font-size: 16px;
         font-weight: bold;
-        color: #216b35;
+        color:#19463d;
         text-decoration: none;
     }
 
