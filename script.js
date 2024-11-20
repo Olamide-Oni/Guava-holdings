@@ -79,7 +79,17 @@
         newsContactObserver.observe(element);
     });
 
-
+    function scrollCarousel(direction) {
+        const catalog = document.querySelector('.about-us-catalog');
+        const scrollAmount = catalog.offsetWidth * 0.8; // Scroll 80% of the viewport width
+    
+        if (direction === 'left') {
+            catalog.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+        } else if (direction === 'right') {
+            catalog.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+        }
+    }
+    
 
 
     
