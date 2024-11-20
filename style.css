@@ -374,7 +374,7 @@ section {
 
 .ceo-image {
     width: 100%; /* Make the image fill its column */
-    max-width: 280px; /* Prevent it from exceeding its natural size */
+    max-width: 320px; /* Prevent it from exceeding its natural size */
     height: auto; /* Maintain aspect ratio */
     object-fit: contain; /* Ensure no stretching */
     object-position: center;
