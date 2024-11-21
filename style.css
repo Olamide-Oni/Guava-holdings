@@ -84,7 +84,6 @@ header .logo-text {
 }
 
 
-
 /* For the open state of the burger */
 #menu-nav-burger.open #burger {
     background-color: transparent;
@@ -102,9 +101,6 @@ header .logo-text {
 .navlinks ul {
     display: flex;
 }
-
-
-
 
 .hero-section {
     position: relative;
@@ -173,10 +169,20 @@ section {
     letter-spacing: 1.5px;
 }
 
+.about-us-catalog {
+    display: flex;
+    gap: 1rem; /* Space between items */
+    padding: 1rem; /* Add padding for spacing */
+    max-width: 80vw;
+    /* height: auto;  Adjust for content */
+    margin: 2rem auto;
+    position: relative;
+}
 
 .about-us-catalog .catalog-real-estate  {
     background-image: url(./assets/Guava1.jpg);
     background-size: cover;
+    width: 100%;
     max-width: 300px;
 }
 
@@ -192,16 +198,7 @@ section {
     max-width: 300px;
 } 
 
-.about-us-catalog {
-    display: flex; /* Flexbox for horizontal alignment */
-    overflow-x: hidden; /* Enable horizontal scrolling */
-    gap: 1rem; /* Space between items */
-    padding: 1rem; /* Add padding for spacing */
-    max-width: 80vw;
-    height: auto; /* Adjust for content */
-    margin: 2rem auto;
-    position: relative;
-}
+
 
 /* Styling for individual catalog items */
 .about-us-catalog div {
@@ -214,6 +211,7 @@ section {
     filter: grayscale(100%);
     transition: filter 0.3s ease-in-out;
     margin: 0 auto;
+    position: relative;
 }
 
 .about-us-catalog div:hover {
@@ -277,7 +275,7 @@ section {
 .about-us-catalog div h3 {
     position: absolute;
     bottom: 1rem;
-    left: 5px;
+    left: 10%;
     font-family: "Raleway", Sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -726,36 +724,14 @@ footer {
 
 
     .about-us-catalog {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
-
-    .catalog-investment, .catalog-real-estate, .catalog-technology {
-        border-radius: 0% !important;
-        height: auto;
-        max-height: 250px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 2rem;
+        
     }
 
     
-.about-us-catalog .catalog-real-estate  {
-    background-image: url(./assets/Guava1.jpg);
-    background-size: cover;
-    max-width: 300px;
-}
-
-.about-us-catalog .catalog-investment  {
-    background-image: url(./assets/GuavaInvestmentcatalog.jpg);
-    background-size: cover;
-    max-width: 300px;
-}
-
-.about-us-catalog .catalog-technology  {
-    background-image: url(./assets/GuavaTech.webp);
-    background-size: cover;
-    max-width: 300px;
-} 
-
     .our-investment-subsection {
         display: flex;
         flex-wrap: wrap;

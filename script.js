@@ -19,12 +19,10 @@
     });
 
     // Target each catalog div
-    const catalogs = document.querySelectorAll('.about-us-catalog div');
+    /*const catalogs = document.querySelectorAll('.about-us-catalog div');
     catalogs.forEach(catalog => {
-        observer.observe(catalog);
-    });
-
-
+        observer.observe(catalog); 
+    }); */
 
     
     // Create a new Intersection Observer instance for the 'our-investment' section
