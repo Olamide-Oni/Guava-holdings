@@ -189,12 +189,14 @@ section {
 .about-us-catalog .catalog-investment  {
     background-image: url(./assets/GuavaInvestmentcatalog.jpg);
     background-size: cover;
+    width: 100%;
     max-width: 300px;
 }
 
 .about-us-catalog .catalog-technology  {
     background-image: url(./assets/GuavaTech.webp);
     background-size: cover;
+    width: 100%;
     max-width: 300px;
 } 
 
@@ -727,8 +729,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        row-gap: 2rem;
-        
+        row-gap: 2rem; 
     }
 
     
