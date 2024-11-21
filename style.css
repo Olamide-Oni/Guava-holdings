@@ -726,28 +726,40 @@ footer {
 
 
     .about-us-catalog {
-        position: relative;
-        max-width: 100vw !important;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
     }
 
     .catalog-investment, .catalog-real-estate, .catalog-technology {
-        flex: 1 1 100%;
         border-radius: 0% !important;
-        width: 100%;
+        height: auto;
+        max-height: 250px;
     }
+
+    
+.about-us-catalog .catalog-real-estate  {
+    background-image: url(./assets/Guava1.jpg);
+    background-size: cover;
+    max-width: 300px;
+}
+
+.about-us-catalog .catalog-investment  {
+    background-image: url(./assets/GuavaInvestmentcatalog.jpg);
+    background-size: cover;
+    max-width: 300px;
+}
+
+.about-us-catalog .catalog-technology  {
+    background-image: url(./assets/GuavaTech.webp);
+    background-size: cover;
+    max-width: 300px;
+} 
 
     .our-investment-subsection {
         display: flex;
         flex-wrap: wrap;
     }
-
-   /*.ceo {
-        display: flex;
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
-    } */
 
     .ceo {
         grid-template-columns: 1fr; /* Stack content vertically */
@@ -780,9 +792,6 @@ footer {
 
     .contact-section {
         max-width: 100% !important;
-    }
-    .video {
-        max-width: 80vw !important;
     }
 
     .footer {
