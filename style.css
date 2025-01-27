@@ -28,12 +28,13 @@ header {
     width: 100%;
     top: 0;
     display: grid;
-    grid-template-columns: 64px 200px 1fr;
+    grid-template-columns: 64px 1fr;
+    column-gap: 4rem;
     justify-content: center;
     align-items: center;
     padding: 0 3rem;
     color: #FFF;
-    background-color: rgb(78, 66, 50);
+    background-color: rgb(205, 207, 209);
     opacity: 0.8;
     z-index: 1000; /* Ensure the header is above other content */
 }
@@ -44,7 +45,9 @@ header {
 }
 
 .guava-logo {
-    height: 4rem;
+    height: 4rem !important;
+    width: 7rem !important;
+
 }
 
 header .logo-text {
@@ -71,7 +74,7 @@ header .logo-text {
 }
 
 .navlinks ul li a {
-    color:  #FFF;
+    color:  #124229;
     text-decoration: none;
     font-weight: bold;
 }
